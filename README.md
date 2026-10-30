@@ -1,10 +1,9 @@
-⛽ Inteligência de Dados para Gestão e Previsão de Preços de Combustíveis
+Inteligência de Dados para Gestão e Previsão de Preços de Combustíveis
 
 Projeto acadêmico interdisciplinar desenvolvido para as disciplinas de Visualização de Dados e Aprendizado de Máquina Supervisionado, da Universidade Federal da Paraíba (UFPB).
 
 O projeto tem como objetivo desenvolver uma solução de apoio à tomada de decisão para a gestão e o acompanhamento dos preços de combustíveis, utilizando dados públicos da Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP), técnicas de análise e visualização de dados e modelos de aprendizado de máquina supervisionado.
-
-📌 Sobre o projeto
+ Sobre o projeto
 
 O projeto foi desenvolvido a partir de uma demanda apresentada pela empresa Forno Nobre, que atua no setor de panificação, produção e distribuição de alimentos.
 
@@ -18,7 +17,7 @@ Visualização de Dados: organização, exploração e apresentação de informa
 
 Aprendizado de Máquina Supervisionado: desenvolvimento e avaliação de modelos de regressão capazes de estimar preços de combustíveis a partir de características disponíveis na base histórica.
 
-🎯 Objetivos
+ Objetivos
 
 Objetivo geral
 
@@ -46,7 +45,7 @@ Avaliar os resultados por meio de métricas de erro e diagnóstico dos resíduos
 
 Fornecer informações que possam auxiliar o acompanhamento dos preços e o planejamento financeiro da organização.
 
-🗂️ Fonte de dados
+ Fonte de dados
 
 A principal fonte utilizada no projeto é a Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP), por meio de seus arquivos públicos de séries históricas de preços de combustíveis.
 
@@ -60,7 +59,7 @@ Período analisado: janeiro de 2024 a junho de 2026.
 
 Os dados utilizados são públicos e não incluem informações financeiras internas ou registros individuais de abastecimento da empresa.
 
-🔎 Etapas de desenvolvimento
+Etapas de desenvolvimento
 
 O desenvolvimento do projeto foi organizado em etapas, desde a obtenção dos dados até a avaliação dos resultados do modelo.
 
@@ -182,7 +181,7 @@ RMSE (Root Mean Squared Error): mede a raiz do erro quadrático médio, atribuin
 
 Também foi realizado o diagnóstico dos resíduos, permitindo observar a distribuição dos erros e identificar possíveis tendências de superestimação ou subestimação dos preços.
 
-📊 Resultados obtidos
+Resultados obtidos
 
 Na avaliação realizada sobre o conjunto de teste, foram obtidos os seguintes resultados:
 
@@ -222,7 +221,7 @@ Entretanto, o desempenho no conjunto de teste foi inferior ao observado na valid
 
 Esses resultados reforçam a importância de avaliar o modelo em dados que representem períodos futuros e de considerar suas limitações antes de utilizá-lo em decisões operacionais.
 
-⚠️ Limitações do projeto
+Limitações do projeto
 
 Apesar dos resultados obtidos, algumas limitações precisam ser consideradas:
 
@@ -242,7 +241,7 @@ A configuração inicial da árvore de decisão não passou por uma busca automa
 
 Dessa forma, os resultados devem ser interpretados como uma ferramenta inicial de apoio à análise dos preços, não como garantia de economia ou previsão exata dos custos da organização.
 
-🛠️ Tecnologias e ferramentas
+Tecnologias e ferramentas
 
 As principais tecnologias utilizadas no desenvolvimento e na análise dos dados são:
 
@@ -278,7 +277,7 @@ ANP
 
 Fonte pública dos dados
 
-📁 Estrutura do projeto
+Estrutura do projeto
 
 A organização do repositório segue a seguinte estrutura proposta:
 
@@ -306,7 +305,7 @@ projeto-combustiveis/
 
 A estrutura apresenta a organização dos arquivos do projeto. Os nomes dos arquivos e diretórios devem corresponder aos efetivamente presentes no repositório.
 
-▶️ Como executar o projeto
+Como executar o projeto
 
 Para reproduzir as análises, é necessário possuir Python instalado e um ambiente capaz de executar notebooks Jupyter.
 
@@ -338,7 +337,7 @@ Em seguida, abrir o notebook de auditoria e modelagem disponível na pasta noteb
 
 Observação: a execução depende da disponibilidade dos arquivos de dados originais ou de suas versões processadas, conforme os caminhos utilizados no notebook.
 
-🔮 Possibilidades de evolução
+Possibilidades de evolução
 
 Como continuidade do projeto, algumas melhorias podem ampliar a utilidade da solução:
 
@@ -355,16 +354,13 @@ Utilizar dados internos de abastecimento da Forno Nobre, caso haja autorização
 Desenvolver estimativas de despesas futuras a partir do histórico real de consumo da empresa.
 
 Comparar previsões com os valores efetivamente observados ao longo do tempo.
-
-👥 Equipe
+ Equipe
 
 Projeto desenvolvido por:
 
 Letícia Sousa
 
 Maria Eduarda Souza
-
-Marina Moraes
 
 Instituição: Universidade Federal da Paraíba (UFPB)
 
@@ -376,7 +372,7 @@ Aprendizado de Máquina Supervisionado.
 
 Período: 2026.2
 
-📚 Referências
+Referências
 
 AGÊNCIA NACIONAL DO PETRÓLEO, GÁS NATURAL E BIOCOMBUSTÍVEIS (ANP). Série Histórica de Preços de Combustíveis. Disponível em: https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/serie-historica-de-precos-de-combustiveis.
 
